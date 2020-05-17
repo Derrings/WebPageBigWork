@@ -20,4 +20,24 @@
 			key = false;
 		}
 	}
+})();
+
+(function () {
+	var choicePages = document.getElementsByClassName('option');
+	for(var prop in choicePages){
+		choicePages[prop].onmouseover = function () {
+			this.style.top = '-20px';
+			var ps = this.getElementsByTagName('p');
+			for(var p in ps) {
+				ps[p].style.opacity = '1';
+			}
+		}
+		choicePages[prop].onmouseout = function () {
+			this.style.top = '0px';
+			var ps = this.getElementsByTagName('p');
+			for(var p in ps) {
+				ps[p].style.opacity = '0';
+			}
+		}
+	}	
 })()
