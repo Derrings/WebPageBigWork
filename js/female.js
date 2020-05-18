@@ -1,11 +1,7 @@
 var roll = document.getElementsByClassName('top-roller')[0];
-
-
-
 HTMLDivElement.prototype.createBanner = function (imgUrl) {
     var len = imgUrl.length;
     // 创建横幅图ul
-    console.log(this,this.clientHeight)
     var bannerUl = document.createElement('ul');
     bannerUl.style.width = this.clientWidth * (len+1) + 'px';
     bannerUl.style.height = this.clientHeight + 'px';
@@ -87,11 +83,12 @@ HTMLDivElement.prototype.createBanner = function (imgUrl) {
     this.appendChild(next);
 
     //给轮播图加上划入出现按钮事件
-    this.addEventListener('mouseenter', function () {
+    bannerUl.addEventListener('mouseenter', function () {
+        console.log('a')
         prev.style.opacity = '.7';
         next.style.opacity = '.7';
     }, false)
-    this.addEventListener('mouseleave', function () {
+    bannerUl.addEventListener('mouseleave', function () {
         prev.style.opacity = '.3';
         next.style.opacity = '.3';
     }, false)
