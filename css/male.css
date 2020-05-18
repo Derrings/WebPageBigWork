@@ -1,0 +1,100 @@
+@import 'iconfont.css';
+@import 'reset.css';
+
+
+body, html {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #fffef5;
+	z-index: 1;
+}
+
+.tag {
+	float: left;
+	margin-top: 10px;
+	width: 250px;
+	height: 50px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #64b5f6;
+	text-align: center;
+	padding-right: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #fff;
+	font-family: "����";
+}
+
+.topTitle {
+	float: right;
+	width: 30%;
+	background-color: #64b5f6;
+	height: 30px;
+	border-bottom-left-radius: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #fff;
+	font-family: "����";
+}
+
+.topTitle div {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.topTitle span {
+	font-size: 12px;
+}
+
+#header{
+	z-index: 9;
+	/* position: relative; */
+}
+
+.topTitle ul {
+	display: none;
+	width: 75px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: 1px 1px 1px 1px #bdbdbd;
+}
+
+.topTitle li {
+	list-style: none;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #64b5f6;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px dotted #fff;
+}
+
+.topTitle li a{
+	text-decoration: none;
+	color: #fff;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.topTitle li:hover {
+	background-color: #2196f3;
+	cursor: pointer;
+}
+
+.topTitle div:hover {
+	cursor: pointer;
+}
+
+.topTitle div:hover ul {
+	display: block;
+}
