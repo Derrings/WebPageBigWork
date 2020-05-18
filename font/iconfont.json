@@ -48,6 +48,13 @@
       "unicode_decimal": 58904
     },
     {
+      "icon_id": "4437603",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
       "icon_id": "10885623",
       "name": "收藏",
       "font_class": "shoucang",
