@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-	background-color: #fffef5;
+	background-color: #fffeef;
 	z-index: 1;
 }
 
@@ -125,4 +125,140 @@ body {
     width: 100%;
     height: 150px;
     border: 1px solid #bdbdbd;
+}
+
+.parttag {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.parttagA {
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color: #2196f3;
+    line-height: 30px;
+    color: #fffeff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parttagB {
+    float: left;
+    width: 0px;
+    height: 0;
+    border: 15px solid #fffeef;
+    border-left-color: #2196f3;
+}
+
+.parttagD {
+    float: right;
+    width: 0px;
+    height: 0;
+    border: 15px solid #fffeef;
+    border-right-color: #2196f3;
+
+}
+
+.parttagC {
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: #2196f3;
+    line-height: 30px;
+    color: #fffeff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shoes {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.s-top {
+    height: 35px;
+    background-color: #2196f3;
+    font-size: 20px;
+    color: #fffeff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    width: 100px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.displayshoes {
+    width: 35%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: 1px solid #bdbdbd;
+}
+
+.displayshoes div {
+    width: 45%;
+    margin-left: 10px;
+}
+
+.displayshoes img {
+    border: 1px solid #bdbdbd;
+    margin: 12px;
+}
+
+.rightd {
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    margin-top: 20px;
+}
+
+.rightd div {
+    width: 45%;
+    margin: 10px;
+}
+
+.rightd img {
+    border: 1px solid #bdbdbd;
+    width: 200px;
+    height: 200px;
+
+}
+
+.shoes p {
+    height: 20px;
+    width: 150px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.money {
+    color: red;
+}
+
+.elect {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pro {
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 1px solid #bdbdbd;
+}
+
+.pro:hover {
+    box-shadow: 1px 2px 2px 2px #bdbdbd;
+}
+
+.pro p {
+    height: 20px;
+    width: 200px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
