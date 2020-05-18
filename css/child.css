@@ -1,0 +1,144 @@
+@import 'iconfont.css';
+@import 'reset.css';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fffff0;
+}
+
+.tag {
+	float: left;
+	margin-top: 10px;
+	width: 250px;
+	height: 50px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #fdd835;
+	text-align: center;
+	padding-right: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #fffff0;
+	font-family: "����";
+}
+
+.topTitle {
+	float: right;
+	width: 30%;
+	background-color: #fdd835;
+	height: 30px;
+	border-bottom-left-radius: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #fffff0;
+	font-family: "����";
+}
+
+.topTitle div {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.topTitle span {
+	font-size: 12px;
+}
+
+#header{
+	z-index: 9;
+	/* position: relative; */
+}
+
+.topTitle ul {
+	display: none;
+	width: 75px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: 1px 1px 1px 1px #bdbdbd;
+}
+
+.topTitle li {
+	list-style: none;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fdd835;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px dotted #fffff0;
+}
+
+.topTitle li a{
+	text-decoration: none;
+	color: #fffff0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.topTitle li:hover {
+	background-color: #fbc02d;
+	cursor: pointer;
+}
+
+.topTitle div:hover {
+	cursor: pointer;
+}
+
+.topTitle div:hover ul {
+	display: block;
+}
+
+.top-roller {
+    width: 30%;
+	height: 400px;
+    left: 100px;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+    z-index: 0;
+    margin-left: 40px;
+}
+.normal{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin: 0 5px;
+}
+.active{
+	background: rgba(0, 0, 0, .5);
+}
+
+.imgbox {
+    width: 620px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.imgbox img {
+    width: 600px;
+    height: 200px;
+}
+
+.titlebar {
+    width: 90%;
+    height: 30px;
+    background-color: #fdd835;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    line-height: 30px;
+    color: #fffff0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
