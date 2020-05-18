@@ -242,3 +242,8 @@ body {
 	text-align: center;
 	margin: 20px;
 }
+
+.ranklist li:hover {
+	background-color: #ffecb4;
+	cursor: pointer;
+}
