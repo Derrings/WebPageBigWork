@@ -183,6 +183,11 @@ body {
 	color: red;
 }
 
+.deco img:hover {
+	border-color: #ec407a;
+	cursor: pointer;
+}
+
 .ranktitle {
 	background-color: #f48fb1;
 	width: 100%;
