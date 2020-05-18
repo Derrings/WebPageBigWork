@@ -1,0 +1,254 @@
+@import 'iconfont.css';
+@import 'reset.css';
+
+body, html {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #fffef5;
+	z-index: 1;
+}
+
+.tag {
+	float: left;
+	margin-top: 10px;
+	width: 250px;
+	height: 50px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #f48fb1;
+	text-align: center;
+	padding-right: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #fff;
+	font-family: "����";
+}
+
+.topTitle {
+	float: right;
+	width: 30%;
+	background-color: #f48fb1;
+	height: 30px;
+	border-bottom-left-radius: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #fff;
+	font-family: "����";
+}
+
+.topTitle div {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+}
+
+.topTitle span {
+	font-size: 12px;
+}
+
+#header{
+	z-index: 9;
+	/* position: relative; */
+}
+
+.topTitle ul {
+	display: none;
+	width: 75px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-shadow: 1px 1px 1px 1px #bdbdbd;
+}
+
+.topTitle li {
+	list-style: none;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background-color: #f48fb1;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px dotted #fff;
+}
+
+.topTitle li a{
+	text-decoration: none;
+	color: #fff;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.topTitle li:hover {
+	background-color: #f06292;
+	cursor: pointer;
+}
+
+.topTitle div:hover {
+	cursor: pointer;
+}
+
+.topTitle div:hover ul {
+	display: block;
+}
+
+.top-roller {
+	width: 50%;
+	height: 300px;
+	margin: 0 auto;
+	/* background-color: #ffcc80; */
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	/* border: 1px solid #bdbdbd; */
+}
+
+.normal{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin: 0 5px;
+}
+.active{
+	background: rgba(0, 0, 0, .5);
+}
+
+.mainBar {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.mainBar .innerTitle {
+	border-bottom: 3px solid #f48fb1;
+	height: 20px;
+	margin-top: 50px;
+}
+
+.mainBar .innerTitle p {
+	display: block;
+	width: 70px;
+	font-size: 12px;
+	padding-left: 5px;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	background-color: #f48fb1;
+	border-top-right-radius: 20px;
+	color: #fff;
+}
+
+.productionBar {
+	margin-top: 30px;
+}
+
+.cloth {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	border: 1px solid #bdbdbd;
+}
+
+.cloth:hover {
+	cursor: pointer;
+}
+
+.cloth p {
+	background-color: #fffef5;
+	text-align: center;
+}
+
+.deco {
+	margin: 50px;
+}
+
+.deco img {
+	border: 1px solid #bdbdbd;
+}
+
+.deco p {
+	margin: 40px;
+}
+
+.money {
+	color: red;
+}
+
+.deco img:hover {
+	border-color: #ec407a;
+	cursor: pointer;
+}
+
+.ranktitle {
+	background-color: #f48fb1;
+	width: 100%;
+	height: 40px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border: 1px solid #bdbdbd;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: #fffef5;
+
+}
+
+.ranklist {
+	margin-top: 30px;
+	width: 250px;
+}
+
+.ranklist ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background-color: #fff;
+	border: 1px solid #bdbdbd;
+}
+
+.ranklist li {
+	width: 100%;
+	border-bottom: 1px dotted #bdbdbd;
+}
+
+.ranklist img {
+	border: 1px solid #bdbdbd;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.ranklist .ip {
+	font-size: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 90px;
+	height: 20px;
+}
+
+.ranklist .index {
+	background-color: #ec407a;
+	height: 30px;
+	width: 30px;
+	font-size: 12px;
+	color: #fffef5;
+	line-height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 20px;
+}
+
+.ranklist li:hover {
+	background-color: #ffecb4;
+	cursor: pointer;
+}
