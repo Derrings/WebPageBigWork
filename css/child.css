@@ -96,6 +96,11 @@ body {
 	display: block;
 }
 
+.topbar {
+	position: relative;
+	z-index: -1;
+}
+
 .top-roller {
     width: 30%;
 	height: 400px;
