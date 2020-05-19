@@ -68,7 +68,6 @@ div img {
 a {
 	float: left;
 	width: 30%;
-	display: inline-block;
 	margin-left: 2%;
 	text-decoration: none;
 }
@@ -152,7 +151,6 @@ li {
 	height: 40px;
 	width: 100px;
 	background: #f57c00;
-	display: inline-block;
 	float: left;
 }
 
