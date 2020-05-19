@@ -40,4 +40,27 @@
 			}
 		}
 	}	
-})()
+})();
+
+(function () {
+	var log = document.getElementsByClassName('log')[0];
+	var logbar = document.getElementsByClassName('logbar')[0];
+	log.onmouseover = function () {
+		logbar.style.display = 'block';
+		log.style.borderRadius = '0';
+	}
+	log.onmouseout = function () {
+		logbar.style.display = 'none';
+		log.style.borderBottomLeftRadius =  '20px';
+		log.style.borderTopLeftRadius = '20px';
+	}
+	logbar.onmouseover = function () {
+		logbar.style.display = 'block';
+		log.style.borderRadius = '0';
+	}
+	logbar.onmouseout = function () {
+		logbar.style.display = 'none';
+		log.style.borderBottomLeftRadius =  '20px';
+		log.style.borderTopLeftRadius = '20px';
+	}
+}())

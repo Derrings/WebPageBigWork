@@ -142,3 +142,45 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+.mb {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.displaybar {
+	margin-bottom: 30px;
+}
+
+.innerdisplay {
+	width: 65%;
+	border: 1px solid #bdbdbd;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.b {
+	float: left;
+	margin: 10px;
+	border: 1px dotted #bdbdbd;
+}
+
+.b:hover {
+	border-color: red;
+}
+
+.money {
+	color: red;
+}
+
+.displaybar p {
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+

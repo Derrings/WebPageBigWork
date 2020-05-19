@@ -20,6 +20,13 @@
       "unicode_decimal": 58960
     },
     {
+      "icon_id": "970753",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
       "icon_id": "1037749",
       "name": "菜单",
       "font_class": "caidan",
@@ -46,6 +53,13 @@
       "font_class": "right",
       "unicode": "e618",
       "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1418216",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e607",
+      "unicode_decimal": 58887
     },
     {
       "icon_id": "4437603",
